@@ -1,8 +1,12 @@
 # Static Code Analysis for Python – A graphical representation of Pylint & SonarQube
 
-This project collects the code analysis results from two different tools, Pylint and
-SonarQube, and provides a meaningful interface that can be used to analyze
-the software quality of projects. 
+This project collects the code analysis results from two different tools, Pylint and SonarQube, and provides a meaningful interface that can be used to analyze the software quality of projects written in Python.
+
+The different types of issues provided by these tools are combined in order to obtain a complete report regarding the code quality of the application under analysis, providing a collection of charts and graphical representations, which will indicate the code areas that can be improved, the files with most of the issues, the types of issues and the concrete code areas where these are located, allowing users to easily find and fix them. 
+
+This tool also provides the ability to compare previous versions of the analysis of the same application, which punctually indicates the issues solved and it is therefore, a great support in the code review process.
+
+## Structure 
 
 It contains two applications, representing the backend and frontend parts of the tool:
 - `pylint-findings-service` - provides and API with CRUD operations on the issues database. Handles all the backend requests over the database data.
