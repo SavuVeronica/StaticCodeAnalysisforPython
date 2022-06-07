@@ -12,7 +12,10 @@ MongoDB Cloud is used for storing the application data.
 
 ## 🌈 Preview
 
-![alt text]()
+
+<img src="https://github.com/SavuVeronica/StaticCodeAnalysisforPython/blob/main/Screenshots/main-page.png" width="300"/> 
+<img src="https://github.com/SavuVeronica/StaticCodeAnalysisforPython/blob/main/Screenshots/run-overview.png" width="300"/> 
+
 
 ## 🚀 Technologies & Modules
 
