@@ -1,0 +1,97 @@
+.runs-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.runs-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    height: auto;
+    max-height: 100px;
+}
+
+.run{
+    width: 50%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.run-info{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+
+.donut{
+    width: 90%;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+}
+
+.graphic{
+    margin-bottom: 30px;
+    height: auto;
+    min-height: 300px;
+}
+
+.pie {
+    margin-bottom: 30px;
+}
+
+.header {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    border-radius: 5px;
+    width: 200%;
+}
+
+.empty-line{
+    margin-top: 10px;
+}
+
+.donut-compare{
+    margin-top: 5px!important;
+}
+
+.pie-compare{
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.bar-compare{
+    margin-bottom: 30px;
+    height: auto;
+    min-height: 300px;
+    padding: 12px;
+    margin-top: -12px;
+}
+
+.bar2-compare{
+    margin-bottom: 30px;
+    height: auto;
+    min-height: 300px;
+    padding: 12px;
+    margin-top: -47px;
+}

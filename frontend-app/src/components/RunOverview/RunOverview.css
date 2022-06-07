@@ -1,0 +1,146 @@
+.run-overview{
+    height: 100%;
+}
+
+.wrapper-overview {
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.overview-page {
+    width: auto;
+    min-width: 95%;
+    height: auto;
+    min-height: 90%;
+    margin: 20px;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+
+.project-form{
+    height: 100%;
+}
+
+.form-fields{
+    height: 90%;
+}
+
+.form-buttons{
+    height: 10%;
+    align-items: end;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.wrapper .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.wrapper h3{
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.top-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.top-btn {
+    margin-right: 10px!important;
+}
+
+.overview-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    margin-bottom: 20px;
+}
+
+.donut{
+    width: auto;
+    height: auto;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.graphic{
+    width: 100%;
+    height: 100%;
+}
+
+.pylint-table {
+    height: auto;
+    min-height: 700px;
+}
+
+.file-findings {
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+}
+
+.general-info{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.general-info-sonar{
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 18px;
+}
+
+
+.left{
+    width: 45%;
+    display: flex;
+    float: left;
+}
+
+.right{
+    width: 45%;
+    display: flex;
+    float: right;
+    margin-left: 50px;
+}
+
+.header-info{
+    border-radius: 10px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: fit-content;
+}
+
+.header-info p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

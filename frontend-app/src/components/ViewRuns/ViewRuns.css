@@ -1,0 +1,100 @@
+.view-runs{
+    height: 100%;
+}
+
+.form-new {
+    width: auto;
+    min-width: 70%;
+    height: auto;
+    min-height: 80%;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wrapper-runs {
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.overview-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    margin-bottom: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+}
+
+
+.project-form{
+    height: 100%;
+}
+
+.form-fields{
+    height: 90%;
+}
+
+.form-buttons{
+    height: 10%;
+    align-items: end;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.wrapper .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.wrapper h3{
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.project-info {
+    width: 50%;
+    float: left;
+}
+
+.run-information{
+    width: 50%;
+    margin-bottom: 30px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.head-info{
+    display: flex;
+}
+
+.last-date{
+    margin-bottom: 0px;
+}
+
+.nr-findings{
+    margin-bottom: 30px;
+}

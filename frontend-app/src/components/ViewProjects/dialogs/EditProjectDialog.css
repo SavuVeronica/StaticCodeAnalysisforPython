@@ -1,0 +1,10 @@
+.edit-form{
+    height: 100%;
+    margin: 50px;
+}
+
+.dialog{
+    height: auto;
+    min-height: 70%;
+    width:auto;
+}
